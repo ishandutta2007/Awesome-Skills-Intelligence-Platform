@@ -1,23 +1,59 @@
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <style>
-      .title { font: bold 32px sans-serif; fill: white; }
-      .subtitle { font: 18px sans-serif; fill: white; opacity: 0.9; }
-      @keyframes float {
-        0% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
-        100% { transform: translateY(0px); }
-      }
-      .anim { animation: float 3s ease-in-out infinite; }
-    </style>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
   </defs>
-  <rect width="800" height="200" rx="20" fill="url(#grad1)" />
-  <circle cx="100" cy="100" r="40" fill="rgba(255,255,255,0.2)" class="anim" />
-  <circle cx="700" cy="80" r="60" fill="rgba(255,255,255,0.1)" class="anim" style="animation-delay: 1s;" />
-  <text x="400" y="90" text-anchor="middle" class="title">Awesome Skills Intelligence</text>
-  <text x="400" y="130" text-anchor="middle" class="subtitle">Curated list of SaaS &amp; Open Source platforms</text>
+  
+  <rect width="800" height="200" fill="url(#bg)" rx="15"/>
+  
+  <!-- Dynamic animated circles -->
+  <g opacity="0.3">
+    <circle cx="100" cy="50" r="3" fill="#38BDF8">
+      <animate attributeName="cy" values="50;40;50" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="150" r="4" fill="#818CF8">
+      <animate attributeName="cy" values="150;130;150" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="650" cy="70" r="5" fill="#38BDF8">
+      <animate attributeName="cy" values="70;90;70" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="720" cy="140" r="3" fill="#818CF8">
+      <animate attributeName="cy" values="140;120;140" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#textGradient)" text-anchor="middle">
+    Awesome Skills Intelligence Platform
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="16" fill="#94A3B8" text-anchor="middle">
+    Curated List of SaaS Products &amp; Open-Source Projects
+  </text>
+  
+  <!-- Nodes / Graph visualization -->
+  <g stroke="#475569" stroke-width="1.5">
+    <line x1="120" y1="100" x2="150" y2="120" />
+    <line x1="150" y1="120" x2="180" y2="90" />
+    <line x1="150" y1="120" x2="130" y2="150" />
+    <circle cx="120" cy="100" r="4" fill="#38BDF8" stroke="none" />
+    <circle cx="150" cy="120" r="6" fill="#818CF8" stroke="none" />
+    <circle cx="180" cy="90" r="4" fill="#38BDF8" stroke="none" />
+    <circle cx="130" cy="150" r="4" fill="#38BDF8" stroke="none" />
+    
+    <line x1="680" y1="100" x2="650" y2="120" />
+    <line x1="650" y1="120" x2="620" y2="90" />
+    <line x1="650" y1="120" x2="670" y2="150" />
+    <circle cx="680" cy="100" r="4" fill="#38BDF8" stroke="none" />
+    <circle cx="650" cy="120" r="6" fill="#818CF8" stroke="none" />
+    <circle cx="620" cy="90" r="4" fill="#38BDF8" stroke="none" />
+    <circle cx="670" cy="150" r="4" fill="#38BDF8" stroke="none" />
+  </g>
 </svg>
