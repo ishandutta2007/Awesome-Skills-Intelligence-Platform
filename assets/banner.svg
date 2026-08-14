@@ -1,0 +1,23 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .title { font: bold 32px sans-serif; fill: white; }
+      .subtitle { font: 18px sans-serif; fill: white; opacity: 0.9; }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+      .anim { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="800" height="200" rx="20" fill="url(#grad1)" />
+  <circle cx="100" cy="100" r="40" fill="rgba(255,255,255,0.2)" class="anim" />
+  <circle cx="700" cy="80" r="60" fill="rgba(255,255,255,0.1)" class="anim" style="animation-delay: 1s;" />
+  <text x="400" y="90" text-anchor="middle" class="title">Awesome Skills Intelligence</text>
+  <text x="400" y="130" text-anchor="middle" class="subtitle">Curated list of SaaS &amp; Open Source platforms</text>
+</svg>
