@@ -18,7 +18,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for open skills ontologies, ESCO/O*NET tooling, skill extraction, knowledge graphs, and self-hosted career/skills intelligence platforms — ideal for HR tech teams, workforce planners, researchers, and organizations seeking transparent, interoperable skills data.
+**Open-source emphasis**: This section is heavily expanded with every major active project for open skills ontologies, ESCO/O'NET tooling, skill extraction, knowledge graphs, and self-hosted career/skills intelligence platforms — ideal for HR tech teams, workforce planners, researchers, and organizations seeking transparent, interoperable skills data.
 
 
 
@@ -40,19 +40,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-| Name | Description | Pricing | Free Tier / Trial Limit |
-| :--- | :--- | :--- | :--- |
-| **[TechWolf](https://www.techwolf.ai/)** | Skills intelligence platform that automatically infers and maintains workforce skills from existing HR and work data without relying primarily on self-assessments, feeding accurate skills inventories into other talent systems. | Est. €3.00/user/mo (basic plan) | No free tier or trial available (Demo upon request) |
-| **[Gloat](https://gloat.com/)** | AI-powered talent marketplace and skills platform focused on internal mobility, project matching, and dynamic skills-based workforce planning. | Est. $5 - $100 PEPM | No free tier or trial available (Demo upon request) |
-| **[SkyHive](https://www.skyhive.ai/)** | Skills AI platform that analyzes labor market and internal data to support reskilling, job architecture, and skills-based transformation. | Enterprise Quote (Pricing not publicly disclosed) | No free tier or trial available (Demo upon request) |
-| **[Retrain.ai](https://www.retrain.ai/)** | Skills and talent intelligence solution aimed at continuous workforce reskilling and alignment with business needs. | Enterprise Quote (Pricing not publicly disclosed) | No free tier or trial available (Demo upon request) |
-| **[Eightfold AI](https://eightfold.ai/)** | Leading talent intelligence platform that uses deep learning for skills inference, talent matching, internal mobility, and workforce insights at enterprise scale. | Est. $7 - $10 PEPM | No free tier or trial available (Demo upon request) |
-| **[Workday Skills Cloud](https://www.workday.com/)** | Native skills foundation within the Workday HCM ecosystem that infers, relates, and manages skills across recruiting, learning, performance, and talent processes. | Included in Workday HCM subscription | No free tier or trial available |
-| **[Lightcast](https://lightcast.io/)** | Labor market and skills data provider (formerly Emsi Burning Glass) offering rich skills and occupation intelligence for workforce planning and education alignment. | Enterprise Quote (Consulting/API data delivery) | No free tier for core platform (Demo upon request) |
-| **[Degreed / Degreed Skills+](https://degreed.com/)** | Learning experience and skills platform that connects skill development, learning content, and skills profiles for continuous upskilling. | Enterprise Quote for business solutions | Free tier for individual learners available indefinitely |
-| **[Beamery](https://beamery.com/)** | Talent lifecycle and skills-based platform supporting recruiting, CRM, and internal talent strategies with skills graph capabilities. | Est. $75/user/mo or $100,000+ Annual Contract Value | No free tier or trial available (Demo upon request) |
-| **[Cornerstone Galaxy / Cornerstone Skills Graph](https://www.cornerstoneondemand.com/)** | Skills and learning ecosystem within Cornerstone that maps skills, powers personalized development, and supports talent mobility. | Est. $6 - $10 PEPM | No free tier or trial available (Demo upon request) |
-| **[Techmap](https://techmap.app)** | Specialized skills and technology mapping solutions for workforce and talent intelligence use cases. | $1 per 1,000 job postings (API usage) | 1,000 job postings free tier (API) |
+| Name | Description | Pricing | Free Tier / Trial Limit | Company Size (Est.) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Workday Skills Cloud](https://www.workday.com/)** | Native skills foundation within the Workday HCM ecosystem that infers, relates, and manages skills across recruiting, learning, performance, and talent processes. | Included in Workday HCM subscription | No free tier or trial available | ~$8.45B Revenue (Public) |
+| **[Cornerstone Galaxy / Cornerstone Skills Graph](https://www.cornerstoneondemand.com/)** | Skills and learning ecosystem within Cornerstone that maps skills, powers personalized development, and supports talent mobility. | Est. $6 - $10 PEPM | No free tier or trial available (Demo upon request) | ~$5.2B Valuation |
+| **[Eightfold AI](https://eightfold.ai/)** | Leading talent intelligence platform that uses deep learning for skills inference, talent matching, internal mobility, and workforce insights at enterprise scale. | Est. $7 - $10 PEPM | No free tier or trial available (Demo upon request) | ~$2.1B Valuation |
+| **[Degreed / Degreed Skills+](https://degreed.com/)** | Learning experience and skills platform that connects skill development, learning content, and skills profiles for continuous upskilling. | Enterprise Quote for business solutions | Free tier for individual learners available indefinitely | ~$1.4B Valuation |
+| **[Beamery](https://beamery.com/)** | Talent lifecycle and skills-based platform supporting recruiting, CRM, and internal talent strategies with skills graph capabilities. | Est. $75/user/mo or $100,000+ Annual Contract Value | No free tier or trial available (Demo upon request) | ~$1B Valuation |
+| **[Gloat](https://gloat.com/)** | AI-powered talent marketplace and skills platform focused on internal mobility, project matching, and dynamic skills-based workforce planning. | Est. $5 - $100 PEPM | No free tier or trial available (Demo upon request) | ~$400M Valuation |
+| **[Lightcast](https://lightcast.io/)** | Labor market and skills data provider (formerly Emsi Burning Glass) offering rich skills and occupation intelligence for workforce planning and education alignment. | Enterprise Quote (Consulting/API data delivery) | No free tier for core platform (Demo upon request) | ~$167.9M Revenue |
+| **[Retrain.ai](https://www.retrain.ai/)** | Skills and talent intelligence solution aimed at continuous workforce reskilling and alignment with business needs. | Enterprise Quote (Pricing not publicly disclosed) | No free tier or trial available (Demo upon request) | ~$134.5M Valuation |
+| **[TechWolf](https://www.techwolf.ai/)** | Skills intelligence platform that automatically infers and maintains workforce skills from existing HR and work data without relying primarily on self-assessments, feeding accurate skills inventories into other talent systems. | Est. €3.00/user/mo (basic plan) | No free tier or trial available (Demo upon request) | ~$41.7M Valuation |
+| **[SkyHive](https://www.skyhive.ai/)** | Skills AI platform that analyzes labor market and internal data to support reskilling, job architecture, and skills-based transformation. | Enterprise Quote (Pricing not publicly disclosed) | No free tier or trial available (Demo upon request) | ~$18.2M Revenue |
+| **[Techmap](https://techmap.app)** | Specialized skills and technology mapping solutions for workforce and talent intelligence use cases. | $1 per 1,000 job postings (API usage) | 1,000 job postings free tier (API) | N/A |
 
 
 ## Open-Source GitHub Projects
